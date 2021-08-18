@@ -127,6 +127,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://revvmotorsport.com/',
   },
+  shibcake: {
+    symbol: 'SHIBCAKE',
+    address: {
+      56: '0x90bdF238674569684a34F3AF8a3F55f08088bc98',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://www.shibcake.com/',
+  },
   skill: {
     symbol: 'SKILL',
     address: {
