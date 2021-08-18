@@ -91,6 +91,24 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://shibcakeswap.com/',
   },
+  wbnb: {
+    symbol: 'wBNB',
+    address: {
+      56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+      97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+    },
+    decimals: 18,
+    projectLink: 'https://shibcakeswap.com/',
+  },
+  busd: {
+    symbol: 'BUSD',
+    address: {
+      56: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://www.paxos.com/busd/',
+  },
 }
 
 export default tokens
