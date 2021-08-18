@@ -82,6 +82,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://shibcake.com/',
   },
+  syrup: {
+    symbol: 'SYRUP',
+    address: {
+      56: '0x3739F7EE28dEe59c0270b57080F089a51542506A',
+      97: '0x3739F7EE28dEe59c0270b57080F089a51542506A',
+    },
+    decimals: 18,
+    projectLink: 'https://shibcakeswap.com/',
+  },
 }
 
 export default tokens
