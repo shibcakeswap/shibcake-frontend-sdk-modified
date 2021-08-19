@@ -17,20 +17,30 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 1,
-    lpSymbol: 'CAKE-BNB LP',
+    lpSymbol: 'CAKE-BNB LP ShibcakeSwap',
     lpAddresses: {
-      97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+      97: '0x1afbcbf8343c04767bc61aabdd803c302b6a487e',
+      56: '0x1afbcbf8343c04767bc61aabdd803c302b6a487e',
     },
     token: tokens.cake,
     quoteToken: tokens.wbnb,
   },
   {
+    pid: 2,
+    lpSymbol: 'SHIBCAKE-BNB LP PancakeSwap',
+    lpAddresses: {
+      97: '0x4f2d19bbd600e4e88396c2f6177ef9f2bfa30671',
+      56: '0x4f2d19bbd600e4e88396c2f6177ef9f2bfa30671',
+    },
+    token: tokens.shibcake,
+    quoteToken: tokens.wbnb,
+  },
+  {
     pid: 3,
-    lpSymbol: 'BUSD-BNB LP',
+    lpSymbol: 'BUSD-BNB LP ShibcakeSwap',
     lpAddresses: {
       97: '',
-      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+      56: '0xc52c61c3af83aa026c4de6480183eb07a31c664f',
     },
     token: tokens.busd,
     quoteToken: tokens.wbnb,
